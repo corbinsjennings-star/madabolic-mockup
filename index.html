@@ -466,13 +466,17 @@
   .section-header h2 .accent { color: var(--teal); }
   /* Center section headers and section-intro paragraphs on mobile */
   @media (max-width: 768px) {
-    .section-header { text-align: center; margin-bottom: 2.5rem; }
-    .section-header h2 { margin-left: auto; margin-right: auto; }
-    .intervals .content > p,
-    .why-works .content > p {
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
+    .section-header { text-align: center !important; margin-bottom: 2.5rem; }
+    .section-header .eyebrow,
+    .section-header h2 {
+      text-align: center !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+    section .content > p {
+      text-align: center !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
     }
   }
 
@@ -1614,7 +1618,7 @@
     <div class="intervals-row">
       <div class="interval">
         <div class="interval-name">Power</div>
-        <div class="interval-tagline">Strength &amp; Athleticism</div>
+        <div class="interval-tagline">Strength &amp; Explosiveness</div>
         <span class="interval-result">What it builds</span>
         <p>The 1:1 work to rest ratio is built for explosive output. Equal work and rest means you can hit every set at maximum intensity, recover just enough to do it again, and keep the quality of every rep high. That's what builds real power, fast-twitch muscle, and the athletic body composition you can actually see. Most boutique programs skip rest entirely, which is why members stay stuck at light weights and the same body for years. Here, you keep building.</p>
         <div class="interval-stats">
@@ -1630,7 +1634,7 @@
       </div>
       <div class="interval">
         <div class="interval-name">Conditioning</div>
-        <div class="interval-tagline">Strength &amp; Speed</div>
+        <div class="interval-tagline">Strength &amp; Athleticism</div>
         <span class="interval-result">What it builds</span>
         <p>The 2:1 work to rest ratio is the sweet spot for shaping lean muscle while burning through body fat. Twice as much work as rest keeps the metabolic demand high, but with enough recovery to keep moving heavy weight with intent. Most programs at this pace turn into glorified cardio with light dumbbells, which is why people stop seeing change after a few months. Ours keeps the load heavy, which is why members actually see definition, not just exhaustion.</p>
         <div class="interval-stats">
